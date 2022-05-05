@@ -1,0 +1,19 @@
+{
+  "name": "prisma-db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesargonzalez89/Prisma-DB.git"
+  },
+  "author": "Cesar Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cesargonzalez89/Prisma-DB/issues"
+  },
+  "homepage": "https://github.com/cesargonzalez89/Prisma-DB#readme"
+}
