@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/cesargonzalez89/Prisma-DB/issues"
   },
-  "homepage": "https://github.com/cesargonzalez89/Prisma-DB#readme"
+  "homepage": "https://github.com/cesargonzalez89/Prisma-DB#readme",
+  "devDependencies": {
+    "express": "^4.18.1"
+  }
 }
