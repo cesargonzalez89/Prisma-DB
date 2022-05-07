@@ -142,7 +142,7 @@ await prisma.missionCommander.update({
     id: id
   },
   data: {
-    currentEnrollment: req.body.currentEnrollment
+    mainStack: req.body.mainStack
   }
 })
 
