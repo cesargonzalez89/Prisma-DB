@@ -30,3 +30,14 @@ model Mission {
   dateCreated DateTime @default(now())
   lastUpdated DateTime @updatedAt
 }
+
+model missionCommander {
+  id Int @id @default(autoincrement())
+  name String  @db.VarChar(50)
+  username String @unique @db.VarChar(50)
+  mainSatck String @db.VarChar(50)
+  currentEnrollment Boolean @default(false)
+  hasAzureCertification  Boolean @default(false)
+  dateCreated DateTime @default(now())
+  lastUpdated DateTime @updatedAt
+}
