@@ -125,7 +125,7 @@ app.post('/missionComander', async (req, res) => {
   const missionCommander = {
     name: req.body.name,
     username: req.body.username,
-    mainSatck: req.body.mainStack,
+    mainStack: req.body.mainStack,
     currentEnrollment: req.body.currentEnrollment,
     hasAzureCertification: req.body.hasAzureCertification
    };
