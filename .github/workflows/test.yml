@@ -12,5 +12,5 @@ jobs:
       run: npm install
 
     # Finally, run our tests
-    - name: Run the tests
-      run: npm test
+    - name: Run Jest
+      uses: stefanoeb/jest-action@1.0.3
